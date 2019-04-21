@@ -42,5 +42,3 @@ function sayHiToGrandma(phrase) {
   return "I love you, too."
   }
 }
-
-sayHiToGrandma("CAROLINE");
