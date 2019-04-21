@@ -32,3 +32,15 @@ function logShout(word) {
 function logWhisper(word) {
   console.log(word.toLowerCase());
 }
+
+function sayHiToGrandma(phrase) {
+  if(phrase === phrase.toLowerCase()) {
+  return "I can\'t hear you!";
+} else if(phrase === phrase.toUpperCase()) {
+  return "YES INDEED!";
+} else if(phrase === "I love you, Grandma."){
+  return "I love you, too."
+  }
+}
+
+sayHiToGrandma("CAROLINE");
